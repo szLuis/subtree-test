@@ -1,8 +1,6 @@
 function jsonToCsv(json) {
-  
   const datos = Object.values(json);
-  console.log(datos)
+  return datos;
 }
 
-
-module.export = jsonToCsv;
+module.exports = jsonToCsv;
